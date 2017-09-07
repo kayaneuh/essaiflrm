@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.3'
+ruby '2.3.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
@@ -30,6 +30,10 @@ gem 'toastr-rails'
 gem "font-awesome-sass"
 #geolocalisation
 gem 'geocoder'
+
+# module de recherche
+gem 'ransack'
+
 gem 'jquery-ui-rails'
 gem 'ratyrate'
 # Use Uglifier as compressor for JavaScript assets
